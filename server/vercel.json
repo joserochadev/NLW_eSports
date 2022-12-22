@@ -2,7 +2,7 @@
   "name": "server-e-sports-nlw",
   "version": 2,
   "public": true,
-  "build": [
+  "builds": [
     {
       "src": "build/server.js",
       "use": "@vercel/node"
