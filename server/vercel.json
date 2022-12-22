@@ -2,10 +2,12 @@
   "name": "server-e-sports-nlw",
   "version": 2,
   "public": true,
-  "build": {
-    "src": "build/server.js",
-    "use": "@vercel/node"
-  },
+  "build": [
+    {
+      "src": "build/server.js",
+      "use": "@vercel/node"
+    }
+  ],
   "routes":[
     {
       "src": "/(.*)",
