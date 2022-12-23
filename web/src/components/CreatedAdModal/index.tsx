@@ -125,7 +125,7 @@ export function CreatedAdModal() {
 
           <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem', alignItems: 'center', }}>
             <InputLabelGroup>
-              <label htmlFor="yearsPlaying">Joga há quantos anos?</label>
+              <label htmlFor="yearsPlaying">Quando costuma jogar?</label>
 
               <ToggleGroupRoot type='multiple' value={weekDays} onValueChange={setWeekDays}>
                 <ToggleGroupItem style={{ backgroundColor: `${weekDays.includes('0') ? '#8b56f6' : '#18181a'}` }} value='0' title='domingo'>D</ToggleGroupItem>
